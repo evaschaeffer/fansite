@@ -1,0 +1,41 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Thank you for submitting your story!</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+</head>
+<body>
+    <div class="text-center">
+        <h2>Thank you for submitting your story!</h2>
+    </div>
+    <div class="panel-body">
+        <table class="table table-sm table-striped table-bordered">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Date</th>
+                    <th>Text</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (FanSite.Models.Stories s in Model)
+                {
+                    <tr>
+                        <td>@s.Title</td>
+                        <td>@s.Date</td>
+                        <td>@s.Text</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
+
