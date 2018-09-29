@@ -12545,11 +12545,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\eschaef\\source\\repos\\FanSite\\FanSite\\FanSite.csproj",
+      "projectUniqueName": "C:\\Users\\eschaef\\Documents\\LaneCC\\cs296n\\FanSite\\FanSite\\FanSite.csproj",
       "projectName": "FanSite",
-      "projectPath": "C:\\Users\\eschaef\\source\\repos\\FanSite\\FanSite\\FanSite.csproj",
+      "projectPath": "C:\\Users\\eschaef\\Documents\\LaneCC\\cs296n\\FanSite\\FanSite\\FanSite.csproj",
       "packagesPath": "C:\\Users\\eschaef\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\eschaef\\source\\repos\\FanSite\\FanSite\\obj\\",
+      "outputPath": "C:\\Users\\eschaef\\Documents\\LaneCC\\cs296n\\FanSite\\FanSite\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",

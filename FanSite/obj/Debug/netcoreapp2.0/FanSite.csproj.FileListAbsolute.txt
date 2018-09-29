@@ -9,3 +9,14 @@ C:\Users\eschaef\source\repos\FanSite\FanSite\obj\Debug\netcoreapp2.0\FanSite.As
 C:\Users\eschaef\source\repos\FanSite\FanSite\obj\Debug\netcoreapp2.0\FanSite.AssemblyInfo.cs
 C:\Users\eschaef\source\repos\FanSite\FanSite\obj\Debug\netcoreapp2.0\FanSite.dll
 C:\Users\eschaef\source\repos\FanSite\FanSite\obj\Debug\netcoreapp2.0\FanSite.pdb
+C:\Users\eschaef\Documents\LaneCC\cs296n\FanSite\FanSite\bin\Debug\netcoreapp2.0\FanSite.deps.json
+C:\Users\eschaef\Documents\LaneCC\cs296n\FanSite\FanSite\bin\Debug\netcoreapp2.0\FanSite.runtimeconfig.json
+C:\Users\eschaef\Documents\LaneCC\cs296n\FanSite\FanSite\bin\Debug\netcoreapp2.0\FanSite.runtimeconfig.dev.json
+C:\Users\eschaef\Documents\LaneCC\cs296n\FanSite\FanSite\bin\Debug\netcoreapp2.0\FanSite.dll
+C:\Users\eschaef\Documents\LaneCC\cs296n\FanSite\FanSite\bin\Debug\netcoreapp2.0\FanSite.pdb
+C:\Users\eschaef\Documents\LaneCC\cs296n\FanSite\FanSite\obj\Debug\netcoreapp2.0\FanSite.csprojResolveAssemblyReference.cache
+C:\Users\eschaef\Documents\LaneCC\cs296n\FanSite\FanSite\obj\Debug\netcoreapp2.0\FanSite.csproj.CoreCompileInputs.cache
+C:\Users\eschaef\Documents\LaneCC\cs296n\FanSite\FanSite\obj\Debug\netcoreapp2.0\FanSite.AssemblyInfoInputs.cache
+C:\Users\eschaef\Documents\LaneCC\cs296n\FanSite\FanSite\obj\Debug\netcoreapp2.0\FanSite.AssemblyInfo.cs
+C:\Users\eschaef\Documents\LaneCC\cs296n\FanSite\FanSite\obj\Debug\netcoreapp2.0\FanSite.dll
+C:\Users\eschaef\Documents\LaneCC\cs296n\FanSite\FanSite\obj\Debug\netcoreapp2.0\FanSite.pdb
