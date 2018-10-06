@@ -10,22 +10,16 @@ namespace FanSite.Controllers
 {
     public class HomeController : Controller
     {
-        public ViewResult Index()
+        public IActionResult Index()
         {
-            return View("Index");
+            return View();
         }
         
-            // GET: /<controller>/
-            public ViewResult History()
-            {
-                return View();
-            }
-        
-        
-            public ViewResult Sources()
-            {
-                return View();
-            }
+        // GET: /<controller>/
+        public IActionResult History()
+        {
+            return View();
+        }
         
         public ViewResult ListResponses()
         {

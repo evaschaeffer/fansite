@@ -1,12 +1,13 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
     Layout = null;
 }
+
 <!DOCTYPE html>
+
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>Home</title>
+    <title>Books</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
 </head>
 <body>
@@ -18,24 +19,26 @@
                 </div>
                 <ul class="nav navbar-nav">
                     <li><a href="/Home/History">History</a></li>
-                    <li><a href="/Sources/Index">Sources</a></li>
+                    <li class="active"><a href="/Sources/Index">Sources</a></li>
                 </ul>
             </div>
         </nav>
-
         <div class="text-center">
-            <h1>Home</h1>
-            <p>
-                This is the home page.
-            </p>
+            <h2>Sources</h2>
+        </div>
+        <div>
+            <ul class="nav nav-tabs">
+                <li role="presentation" class="active"><a href="/Sources/Books">Books</a></li>
+                <li role="presentation"><a href="/Sources/Links">Links</a></li>
+            </ul>
+        </div>
+        <div class="text-center">
+            <h2>Books</h2>
         </div>
         <div class="text-left">
-            <h2>Submit a Story!</h2>
-            <p>
-                Do you have something you'd like to share regarding your very favorite person?! Tell us all about it!
-            </p>
-            <a href="/Home/StoryForm">Add a Story</a>
+            <p>A list of books and print media about this person.</p>
         </div>
+
     </div>
 </body>
 </html>

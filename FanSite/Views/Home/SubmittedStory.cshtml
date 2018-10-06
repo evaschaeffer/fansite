@@ -12,32 +12,46 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
 </head>
 <body>
-    <div class="text-center">
-        <h2>Thank you for submitting your story!</h2>
-    </div>
-    <div class="panel-body">
-        <table class="table table-sm table-striped table-bordered">
-            <thead>
-                <tr>
-                    <th>Title</th>
-                    <th>Date</th>
-                    <th>Text</th>
-                </tr>
-            </thead>
-            <caption>This part is not quite working.</caption>
-            <tbody>
-                @foreach (FanSite.Models.Stories s in Model)
-                {
+    <div class="container">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="/">Home</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li><a href="/Home/History">History</a></li>
+                    <li><a href="/Sources/Index">Sources</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="text-center">
+            <h2>Thank you for submitting your story!</h2>
+        </div>
+        <div class="panel-body">
+            <table class="table table-sm table-striped table-bordered">
+                <thead>
                     <tr>
-                        <td>@s.Title</td>
-                        <td>@s.Date</td>
-                        <td>@s.Text</td>
+                        <th>Title</th>
+                        <th>Date</th>
+                        <th>Text</th>
                     </tr>
-                }
-            </tbody>
-            
-        </table>
+                </thead>
+                <caption>This part is not quite working.</caption>
+                <tbody>
+                    
+                    @*@foreach (FanSite.Models.Stories s in Model)
+                    {
+                        <tr>
+                            <td>@s.Title</td>
+                            <td>@s.Date</td>
+                            <td>@s.Text</td>
+                        </tr>
+                    }*@
+                </tbody>
+            </table>
+        </div>
     </div>
+
 </body>
 </html>
 

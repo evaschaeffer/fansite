@@ -10,7 +10,15 @@ namespace FanSite.Controllers
 {
     public class SourcesController : Controller
     {
-        public ViewResult Sources()
+        public IActionResult Index()
+        {
+            return View();
+        }
+        public IActionResult Links()
+        {
+            return View();
+        }
+        public IActionResult Books()
         {
             return View();
         }
